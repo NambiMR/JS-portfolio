@@ -16,7 +16,14 @@
          <!-- Icon Font Stylesheet -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+        
+        <!-- Font Awesome for Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+        
         <!-- CSS Libraries -->
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -40,16 +47,19 @@
                 <nav id="nav-menu-container">
                     <ul class="nav-menu">
                         <li><a href="#top-header">Home</a></li>
-                        <li><a href="#about">About me</a></li>
+                        <li><a href="#about">About</a></li>
                         <li><a href="#experience">Experience</a></li>
+                        <li><a href="#skills">Skills</a></li>
                         <li><a href="#service">Services</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Contact me</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
 
                 <nav class="nav social-nav pull-right d-none d-lg-inline">
-                    <a href="https://www.linkedin.com/in/nambi25" target="_blank"><i class="fa fa-linkedin"></i></a> <a href="https://github.com/NambiMR" target="_blank"><i class="fa fa-github"></i></a> <a href="https://nambimuthuraja.netlify.app/" target="_blank"><i class="fa fa-chrome"></i></a>
+                    <a href="https://www.linkedin.com/in/nambi25" target="_blank"><i class="fa fa-linkedin"></i></a> 
+                    <a href="https://github.com/NambiMR" target="_blank"><i class="fa fa-github"></i></a> 
+                    <a href="https://nambimuthuraja.netlify.app/" target="_blank"><i class="fa fa-chrome"></i></a>
                 </nav>
             </div>
         </div>
@@ -73,7 +83,7 @@
                         <h2></h2>
                         
                     </div>
-                    <a href="#" class="hire btn  btn-lg mx-auto mt-5" id="downloadBtn">Hire Me</a>
+                    <a href="#" class="hire btn  btn-lg mx-auto mt-5" id="downloadBtn">Resume <i class="uil uil-download-alt button__icon"></i></a>
                 </div>
             </div>
         </div>
@@ -93,8 +103,7 @@
                         <header class="section-header">
                             <h2>About Me</h2>
                         </header>
-                        <h3><strong>Name:</strong> Nambi Muthu Raja</h3>
-                        <h4><strong>Profession:</strong> Web Designer & Developer</h4>
+                        
                         <p>
                             Hi, I'm Nambi Muthu Raja, a passionate Front-End Developer specializing in React, JavaScript, and Tailwind CSS. I enjoy creating dynamic, responsive, and user-friendly web applications that enhance user experience.
                         </p>
@@ -109,57 +118,47 @@
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="skills">
-                            <h3>Front End Skills</h3>
-
-                            <div class="skill-name">
-                                <p>HTML</p><p>95%</p>
+                <!-- <div class="container">
+                    <div class="row">
+                        
+                        <div class="col-md-6">
+                            <div class="skills">
+                                <h3 class="mb-4">Front End Skills</h3>
+                                <div class="d-flex align-items-center gap-3 mb-3">
+                                    <i class="fa-brands fa-html5 text-danger fs-1"></i>
+                                    <p class="mb-0 fs-5">HTML</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-3 mb-3">
+                                    <i class="fa-brands fa-css3-alt text-primary fs-1"></i>
+                                    <p class="mb-0 fs-5">CSS</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-3 mb-3">
+                                    <i class="fa-brands fa-react text-info fs-1"></i>
+                                    <p class="mb-0 fs-5">React JS</p>
+                                </div>
                             </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <div class="skill-name">
-                                <p>CSS</p><p>85%</p>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <div class="skill-name">
-                                <p>React JS</p><p>80%</p>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                
+                        
+                        <div class="col-md-6">
+                            <div class="skills">
+                                <h3 class="mb-4">Back End Skills</h3>
+                                <div class="d-flex align-items-center gap-3 mb-3">
+                                    <i class="fa-brands fa-node-js text-success fs-1"></i>
+                                    <p class="mb-0 fs-5">Node JS</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-3 mb-3">
+                                    <i class="fa-solid fa-server text-secondary fs-1"></i>
+                                    <p class="mb-0 fs-5">Express JS</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-3 mb-3">
+                                    <i class="fa-solid fa-database text-warning fs-1"></i>
+                                    <p class="mb-0 fs-5">MongoDB</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="skills">
-                            <h3>Back End Skills</h3>
-                            <div class="skill-name">
-                                <p>Node JS</p><p>90%</p>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            
-                            <div class="skill-name">
-                                <p>Express JS</p><p>85%</p>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            
-                            <div class="skill-name">
-                                <p>MongoDB</p><p>95%</p>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <!-- About Me End-->
@@ -199,7 +198,7 @@
                 <div class="timeline-item">
                   <div class="timeline-dot"></div>
                   <div class="timeline-content">
-                    <span class="year">2024 - 2035</span>
+                    <span class="year">2024 - 2025</span>
                     <span class="university">KGiSL Micro College</span>
                     <h4 class="diploma">Intern</h4>
                     <span class="specialty">Full Stack Developer</span>
@@ -209,7 +208,7 @@
                 <div class="timeline-item">
                   <div class="timeline-dot"></div>
                   <div class="timeline-content">
-                    <span class="year">Feb 2024 - May 2023</span>
+                    <span class="year">Feb 2024 - May 2024</span>
                     <span class="university">Soshai Tech</span>
                     <h4 class="diploma">Intern</h4>
                     <span class="specialty">Software Developer</span>
@@ -222,7 +221,140 @@
                             </div>
                           </div>
                         </div>
+<!--==================== SKILLS ====================-->
+<section class="skills container skill-section" id="skills">
+    <header class="section-header">
+        <h3 class="section-title">Skills</h3>  
+    </header>
+    <h2 class="title">My Education & Experience</h2>
 
+    <div class="skills__container skill-container skill-grid section__border">
+        <!--==================== SKILLS 1 ====================-->
+        <div class="skills__content">
+            <h3 class="skills__title">
+                <i class="ri-braces-line"></i> Web Development
+            </h3>
+
+            <div class="skills__info">
+                <div class="skills__data">
+                    <div class="skills__blob">
+                        <img src="img/html-1.svg" alt="skills image">
+                    </div>
+
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__subtitle">Advanced</span>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__blob">
+                        <img src="img/css-3.svg" alt="skills image">
+                    </div>
+
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__subtitle">Advanced</span>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__blob">
+                        <img src="img/logo-javascript.svg" alt="skills image">
+                    </div>
+
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__subtitle">Intermediate</span>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__blob">
+                        <img src="img/react-2.svg" alt="skills image">
+                    </div>
+
+                    <h3 class="skills__name">React</h3>
+                    <span class="skills__subtitle">Basic</span>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__blob">
+                        <img src="img/nodejs-logo-svgrepo-com.svg" alt="skills image">
+                    </div>
+
+                    <h3 class="skills__name">NodeJs</h3>
+                    <span class="skills__subtitle">Advanced</span>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__blob">
+                        <img src="img/mongodb-svgrepo-com.svg" alt="skills image">
+                    </div>
+
+                    <h3 class="skills__name">MongoDB</h3>
+                    <span class="skills__subtitle">Intermediate</span>
+                </div>
+
+                <!-- <div class="skills__data">
+                    <div class="skills__blob">
+                        <img src="img/git-icon.svg" alt="skills image">
+                    </div>
+
+                    <h3 class="skills__name">Git</h3>
+                    <span class="skills__subtitle">Intermediate</span>
+                </div> -->
+            </div>
+        </div>
+
+        
+        <!--==================== SKILLS 2 ====================-->
+        <div class="skills__content">
+            <h3 class="skills__title">
+                <i class="ri-pantone-line"></i> Web Desiging
+            </h3>
+
+            <div class="skills__info">
+                <div class="skills__data">
+                    <div class="skills__blob">
+                        <img src="img/figma-1.svg" alt="skills image">
+                    </div>
+
+                    <h3 class="skills__name">Figma</h3>
+                    <span class="skills__subtitle">Advanced</span>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__blob">
+                        <img src="img/sketch-2.svg" alt="skills image">
+                    </div>
+
+                    <h3 class="skills__name">Sketch</h3>
+                    <span class="skills__subtitle">Basic</span>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__blob">
+                        <img src="img/adobe-xd-1.svg" alt="skills image">
+                    </div>
+
+                    <h3 class="skills__name">Adobe XD</h3>
+                    <span class="skills__subtitle">Intermediate</span>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__blob">
+                        <img src="img/invision.svg" alt="skills image">
+                    </div>
+
+                    <h3 class="skills__name">Canva</h3>
+                    <span class="skills__subtitle">Advanced</span>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__blob">
+                        <img src="img/canva-svgrepo-com.svg" alt="skills image">
+                    </div>
+
+                    <h3 class="skills__name">Photoshop</h3>
+                    <span class="skills__subtitle">Intermediate</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
          <!-- Service Start -->
     <div class="container-fluid  my-5 py-6" id="service">
         <div class="container">
@@ -243,43 +375,43 @@
                         <div class="ms-sm-4 ">
                             <h4 class="mb-3 text-light">Creative Design</h4>
                             <h6 class="mb-3 text-light">Start from <span class="text-warning">$199</span></h6>
-                            <span class="text-light">Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
+                            <span class="text-light">We create visually stunning and unique designs that reflect your brand identity, ensuring a strong and lasting impression.</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp mb-4" data-wow-delay="0.3s">
-                    <div class="service-item d-flex flex-column flex-sm-row  rounded h-100 p-4 p-lg-5">
+                <div class="col-lg-6 wow fadeInUp mb-4 " data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-secondary rounded h-100 p-4 p-lg-5">
                         <div class="bg-icon flex-shrink-0 mb-3">
                             <i class="fa fa-code-branch fa-2x text-light"></i>
                         </div>
-                        <div class="ms-sm-4">
+                        <div class="ms-sm-4 ">
                             <h4 class="mb-3 text-light">Graphic Design</h4>
                             <h6 class="mb-3 text-light">Start from <span class="text-warning">$199</span></h6>
-                            <span class="text-light">Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
+                            <span class="text-light">From logos to social media graphics, our team delivers high-quality designs that enhance your brand’s visual presence.</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item d-flex flex-column flex-sm-row  rounded h-100 p-4 p-lg-5">
+                <div class="col-lg-6 wow fadeInUp mb-4" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-dark  rounded h-100 p-4 p-lg-5">
                         <div class="bg-icon flex-shrink-0 mb-3">
                             <i class="fa fa-code fa-2x text-light"></i>
                         </div>
                         <div class="ms-sm-4">
                             <h4 class="mb-3 text-light">Web Design</h4>
                             <h6 class="mb-3 text-light">Start from <span class="text-warning">$199</span></h6>
-                            <span class="text-light">Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
+                            <span class="text-light">We craft responsive and user-friendly websites that not only look great but also provide an exceptional user experience.</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item d-flex flex-column flex-sm-row  rounded h-100 p-4 p-lg-5">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-info rounded h-100 p-4 p-lg-5">
                         <div class="bg-icon flex-shrink-0 mb-3">
                             <i class="fa fa-laptop fa-2x text-light"></i>
                         </div>
                         <div class="ms-sm-4">
                             <h4 class="mb-3 text-light">UI/UX Design</h4>
                             <h6 class="mb-3 text-light">Start from <span class="text-warning">$199</span></h6>
-                            <span class="text-light">Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
+                            <span class="text-light">We focus on intuitive and engaging user interfaces, ensuring seamless digital experiences across all devices.</span>
                         </div>
                     </div>
                 </div>
@@ -518,7 +650,7 @@
         <div class="contact" id="contact">
             <div class="container">
                 <div class="section-header">
-                    <h3>Contact Me</h3>
+                    <h3>Hire Me</h3>
                     
                 </div>
 
